@@ -1,0 +1,32 @@
+[package]
+name = "pigeon-shot"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "pigeon-shot"
+path = "src/main.rs"
+
+[dependencies]
+gtk4 = "0.11.2"
+libadwaita = "0.9.1"
+glib = "0.22.5"
+gdk4 = "0.11.2"
+gdk = "0.18.2"
+gdk-pixbuf = "0.22.0"
+gio = "0.22.5"
+chrono = "0.4.44"
+tempfile = "3.27.0"
+zbus = { version = "5.14.0", features = ["tokio"] }
+tokio = { version = "1.51.1", features = ["rt-multi-thread", "macros"] }
+futures = "0.3.32"
+wayland-client = "0.31.14"
+wayland-protocols = { version = "0.32.12", features = ["client"] }
+smithay-client-toolkit = "0.20.0"
+libwayshot = "0.7.3"
+ashpd = "0.11.0"
+
+[profile.release]
+opt-level = 3
+lto = true
+strip = true

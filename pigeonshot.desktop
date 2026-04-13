@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Pigeon Shot
+Comment=Simple screenshot tool
+Exec=pigeon-shot
+Icon=screenshot-tool
+Categories=Graphics;Utility;
+Keywords=screenshot;capture;
+Terminal=false
+StartupNotify=true
