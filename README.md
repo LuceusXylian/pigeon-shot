@@ -13,33 +13,8 @@ A lightweight screenshot tool written in Rust using GTK4 and libadwaita.
 - 🎨 Modern libadwaita UI
 - ⚡ Fast and lightweight
 
-## Building
-
-### Requirements
-
-- Rust 1.70+
-- GTK 4 development files
-- libadwaita development files
-
-### Build
-
-```bash
-cargo build --release
-```
-
-The binary will be at `target/release/pigeon-shot`
-
-## Running
-
-```bash
-./target/release/pigeon-shot
-```
-
-Or install system-wide:
-
-```bash
-sudo cp target/release/pigeon-shot /usr/local/bin/
-```
+## Dependencies / Installation
+See [install.sh](/install.sh) for dependencies or installation.
 
 ## Print Key Setup
 
@@ -69,9 +44,6 @@ xbindkeys
 ### Using systemd/DBus (Alternative)
 
 For a system-wide solution, create a service file.
-
-## Dependencies / Installation
-See [install.sh](/install.sh) for dependencies or installation.
 
 ## License
 
