@@ -70,23 +70,8 @@ xbindkeys
 
 For a system-wide solution, create a service file.
 
-## Dependencies
-
-### System Packages (Debian/Ubuntu)
-
-```bash
-sudo apt install \
-  libgtk-4-dev \
-  libadwaita-1-dev 
-```
-
-### System Packages (Fedora)
-
-```bash
-sudo dnf install \
-  gtk4-devel \
-  libadwaita-devel
-```
+## Dependencies / Installation
+See [install.sh](/install.sh) for dependencies or installation.
 
 ## License
 
