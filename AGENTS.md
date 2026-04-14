@@ -22,5 +22,3 @@
 - App ID: `io.github.pigeonshot` (reverse domain for GNOME/Wayland)
 - Graceful fallbacks: GNOME DBus → XDG Portal
 - Temporary files for Wayland captures cleaned up automatically
-
-See [README.md](README.md) for detailed build instructions, dependencies, and usage.
